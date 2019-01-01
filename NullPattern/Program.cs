@@ -6,7 +6,7 @@ namespace NullPattern
     {
         static void Main(string[] args)
         {
-            IAnimal dog = new Dog();
+            var dog = new Dog();
             dog.MakeSound();
 
             var unknown = Animal.Null;

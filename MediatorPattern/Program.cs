@@ -9,7 +9,7 @@ namespace MediatorPattern
         }
     }
 
-    public delegate void MessageReceivedEventHandler(string meesage, string from);
+    public delegate void MessageReceivedEventHandler(string message, string from);
 
     public class Mediator
     {

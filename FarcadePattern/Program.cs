@@ -17,18 +17,12 @@ namespace FarcadePattern
 
         public void Operation1()
         {
-            Console.WriteLine("Operation 1\n" +
-                              _subsystemA.OperationA1() +
-                              _subsystemB.OperationB1() +
-                              _subsystemC.OperationC1());
+            Console.WriteLine($"Operation 1\n{_subsystemA.OperationA1()}{_subsystemB.OperationB1()}{_subsystemC.OperationC1()}");
         }
 
         public void Operation2()
         {
-            Console.WriteLine("Operation 2\n" +
-                              _subsystemA.OperationA2() +
-                              _subsystemB.OperationB2() +
-                              _subsystemC.OperationC2());
+            Console.WriteLine($"Operation 2\n{_subsystemA.OperationA2()}{_subsystemB.OperationB2()}{_subsystemC.OperationC2()}");
         }
     }
 
