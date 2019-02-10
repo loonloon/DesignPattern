@@ -4,6 +4,10 @@ namespace DecoratorPattern
 {
     class Program
     {
+        /*
+         * Intent
+         * The intent of this pattern is to add additional responsibilities dynamically to an object.
+         */
         static void Main(string[] args)
         {
             Console.WriteLine("Decorator Pattern\n");

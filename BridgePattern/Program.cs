@@ -4,6 +4,10 @@ namespace BridgePattern
 {
     class Program
     {
+        /*
+         * Intent
+         * The intent of this pattern is to decouple abstraction from implementation so that the two can vary independently.
+         */
         static void Main(string[] args)
         {
         }

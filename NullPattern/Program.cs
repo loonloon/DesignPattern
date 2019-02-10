@@ -4,6 +4,11 @@ namespace NullPattern
 {
     class Program
     {
+        /*
+         * Intent
+         * Provide an object as a surrogate for the lack of an object of a given type.
+         * The Null Object Pattern provides intelligent do nothing behavior, hiding the details from its collaborators.
+         */
         static void Main(string[] args)
         {
             var dog = new Dog();

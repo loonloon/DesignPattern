@@ -2,6 +2,11 @@
 {
     class Program
     {
+        /*
+         * Intent
+         * specifying the kind of objects to create using a prototypical instance
+         * creating new objects by copying this prototype
+         */
         static void Main(string[] args)
         {
             /*

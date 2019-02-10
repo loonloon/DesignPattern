@@ -4,6 +4,12 @@ namespace CommandPattern
 {
     class Program
     {
+        /*
+         * Intent
+         * encapsulate a request in an object
+         * allows the parameterization of clients with different requests
+         * allows saving the requests in a queue
+         */
         static void Main(string[] args)
         {
             var argument = args.Length > 0 ? args[0].ToUpper() : null;

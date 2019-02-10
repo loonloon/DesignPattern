@@ -5,6 +5,11 @@ namespace SingletonPattern
     //http://csharpindepth.com/Articles/General/Singleton.aspx
     class Program
     {
+        /*
+         * Intent
+         * Ensure that only one instance of a class is created.
+         * Provide a global point of access to the object.
+         */
         static void Main(string[] args)
         {
         }

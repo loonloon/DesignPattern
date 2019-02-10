@@ -5,6 +5,10 @@ namespace BuilderPattern
 {
     class Program
     {
+        /*
+         * Defines an instance for creating an object but letting subclasses decide which class to instantiate
+         * Refers to the newly created object through a common interface
+         */
         static void Main(string[] args)
         {
             var director = new Director();

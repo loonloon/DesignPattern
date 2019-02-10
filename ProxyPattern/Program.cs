@@ -4,6 +4,10 @@ namespace ProxyPattern
 {
     class Program
     {
+        /*
+         * Intent
+         * The intent of this pattern is to provide a �Placeholder� for an object to control references to it.
+         */
         static void Main(string[] args)
         {
             Console.WriteLine("Proxy Pattern\n");

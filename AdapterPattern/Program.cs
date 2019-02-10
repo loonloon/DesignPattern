@@ -4,6 +4,11 @@ namespace AdapterPattern
 {
     class Program
     {
+        /*
+         * Intent
+         * Convert the interface of a class into another interface clients expect.
+         * Adapter lets classes work together, that could not otherwise because of incompatible interfaces.
+         */
         static void Main(string[] args)
         {
             var microUsbRecharger = new MicroUsbRecharger();
