@@ -10,6 +10,7 @@
         {
         }
     }
+
     // Open-Close Principle - Good example
     public class GraphicEditor
     {
