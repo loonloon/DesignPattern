@@ -87,7 +87,6 @@ namespace ChainOfResponsibilityPattern
         public ConsoleLogger(LogLevel mask)
             : base(mask)
         {
-
         }
 
         protected override void WriteMessage(string msg)
@@ -101,7 +100,6 @@ namespace ChainOfResponsibilityPattern
         public EmailLogger(LogLevel mask)
             : base(mask)
         {
-
         }
 
         protected override void WriteMessage(string msg)
@@ -116,7 +114,6 @@ namespace ChainOfResponsibilityPattern
         public FileLogger(LogLevel mask)
             : base(mask)
         {
-
         }
 
         protected override void WriteMessage(string msg)
